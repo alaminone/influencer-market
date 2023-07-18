@@ -45,10 +45,12 @@ nav li{
 }
 /* finish nevigetion */
 /* Bannar section */
-.bannar{
+
+.bannar-img{
     background-image: url(../images/Circle\ design.svg);
     background-position: right;
     background-repeat: no-repeat;
+    padding: 40px;
 }
 .bannar{
     background-color: #ffffff;;
@@ -101,39 +103,43 @@ nav li{
 .card-container .cards{
     border: 1px solid #3A3A3A;
     gap: 20px;
-    padding: 25px;
+    padding: 20px 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     background: #FFF;
-    box-shadow: 0px 10px 30px 0px rgba(109, 106, 106, 0.06);
-    width: 350px;
+    width: 320px;
     height: auto;
+    justify-content: center;
+    align-items: center;
 }
 .see{
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: 700;
-    text-align: right;
-    margin-right: 0px;
 }
 /* finish product section */
 /* featured section */
 
 .featured-products{
     display: flex;
-    margin: 100px 0px;
+    margin: 100px auto;
     max-width: 1400px;
-    border: 2px solid tomato;
+    justify-content: center;
+    align-items: center;
 }
 .featured-img{
     width: 50%;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
+}
+.featured-img img{
+    width: 80%;
 }
 .featured-content{
     width: 50%;
-    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 .featured-title{
     color: #0A0826;
@@ -165,10 +171,4 @@ nav li{
 }
 .social-midia{
     gap: 10px;
-}
-/* media screen */
-@media screen and (max-width: 576px){
-    
-    /* comming soon fucking media screen */
-
 }
